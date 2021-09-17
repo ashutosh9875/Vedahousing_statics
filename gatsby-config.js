@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Vedahousing.com`,
+    description: `Rent in Varanasi, Rent in Mahmoorganj, Rent Mahmoorganj, Rent Varanasi, 1 BHK, 2BHK, 1BHK, 2BHK 3BHK 3 BHK Property Buy Sigra sigra varanasi mahmoorganj 2bhk 3bhk 1bhk .`,
+    author: `@Vedahousing`,
+    siteUrl: `http:///`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
