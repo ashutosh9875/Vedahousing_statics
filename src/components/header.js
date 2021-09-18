@@ -1,11 +1,13 @@
 import * as React from "react"
 import PropTypes from "prop-types"
+import { StaticImage } from "gatsby-plugin-image"
+
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `darkorange`,
+      background: `white`,
       marginBottom: `1rem`,
     }}
   >
@@ -14,20 +16,15 @@ const Header = ({ siteTitle }) => (
         maxWidth: 960,
         padding: `1rem 1rem`,
       }}
-    >
-      <h1 style={{ margin: 0,
-        fontSize: '1rem'
-      }}>
-        <Link
-          to="/"
+    ><StaticImage 
+          src="../images/icon.png" 
+          alt={siteTitle} 
           style={{
             color: `white`,
-            textDecoration: `none`,
+            width: "120px"
           }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+        />
+        
     </div>
   </header>
 )
