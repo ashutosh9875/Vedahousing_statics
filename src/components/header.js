@@ -8,7 +8,6 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `white`,
-      marginBottom: `1rem`,
     }}
   >
     <div
