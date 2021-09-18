@@ -43,16 +43,16 @@ const Layout = ({ children }) => {
 
 <div class="relative bg-white overflow-hidden">
   <div class="max-w-7xl mx-auto">
-    <div class="relative bottom-0 z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+    <div class="relative bottom-0 z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-8 xl:pb-8">
       <div>
       </div>
-      <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-32">
+      <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-8">
         <div class="sm:text-center lg:text-left">
-          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-white md:text-6xl">
-            <span class="block xl:inline text-yellow-600">Property consultant in</span>
+          <h1 class="animate-bounce text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-white md:text-6xl">
+            <span class="block xl:inline text-yellow-600 md:text-white">Property consultant in</span>
             <span class="block text-yellow-600 xl:inline"> Varanasi</span>
           </h1>
-          <p class="mt-3 text-base text-yellow-600 md:text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 xl:mt-64">
+          <p class="mt-3 text-base text-yellow-600 md:text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-32 md:text-xl lg:mx-0 xl:mt-32">
             Please contact us on whatsapp for Buy, Sell, Rent, Drawing Design of Residential and Commercial Properties.
           </p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
