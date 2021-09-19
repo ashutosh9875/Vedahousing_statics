@@ -54,12 +54,24 @@ const Layout = ({ children }) => {
             Please contact us on whatsapp for Buy, Sell, Rent, Drawing Design of Residential and Commercial Properties.
           </p>
           <div class="mt-12 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-            <div class="rounded-md shadow mt-4">
-                <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=ddsingh59@gmail.com&amp;&amp;su=Need property for Rent or Buy&amp;body=Hi," 
-                  title="Connect on email" class="w-full flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-red-600 md:py-2 md:text-lg md:px-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
+          <div class="rounded-md shadow mt-4 sm:hidden">
+                <a href="mailto:vedahousing59@gmail.com?subject=Need property for Rent or Buy&amp;body=Hi Vedahousing, %0d%0a%0d%0aPlease help me in buying/selling property in {Please replace with location}.%0d%0a%0d%0aRegards,%0d%0a%0d%0a" 
+                  title="Connect on email" 
+                  class="w-full flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-red-600 md:py-2 md:text-lg md:px-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  Email Us
+                </a>
+            </div>
+            <div class="rounded-md shadow mt-4 hidden sm:block">
+                <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vedahousing59@gmail.com&amp;su=Need property for Rent or Buy&amp;body=Hi Vedahousing, %0d%0a%0d%0aPlease help me in buying/selling property in {Please replace with location}.%0d%0a%0d%0aRegards,%0d%0a%0d%0a" 
+                  title="Connect on email" 
+                  target="_blank"
+                  class=" w-full flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-red-600 md:py-2 md:text-lg md:px-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
                 Email Us
                 </a>
               </div>
@@ -75,7 +87,7 @@ const Layout = ({ children }) => {
       </main>
     </div>
   </div>
-  <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:insert-x-0 invert-0">
+  <div class="hidden md:block md:absolute md:inset-y-0 md:insert-x-0 invert-0">
         <StaticImage 
           class="invert-0 h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
           src="../images/Heroimg.jpg" 
